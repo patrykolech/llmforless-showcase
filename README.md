@@ -50,6 +50,20 @@ flowchart LR
 - **Klient**: przegląd salda, klucze API, zużycie i wykresy kosztów, log zapytań, gotowa konfiguracja dla narzędzi, playground do testowania modeli, zamówienia i faktury.
 - **Administrator**: klienci, zamówienia, cennik (rabat per model), dostawcy i ich salda, partie voucherów, ustawienia sklepu.
 
+Zrzuty z lokalnej wersji na kontach testowych:
+
+| Klucze API | Zużycie i koszty |
+|---|---|
+| ![Klucze API](screenshots/07-klucze-api.png) | ![Zużycie](screenshots/08-zuzycie.png) |
+
+| Gotowa konfiguracja dla Claude Code, Codex, cURL, Python, TypeScript | Panel właściciela: modele i ceny |
+|---|---|
+| ![Podłączenie](screenshots/10-konfiguracja-narzedzi.png) | ![Admin: ceny](screenshots/13-admin-ceny.png) |
+
+| Panel właściciela: zamówienia (przelewy potwierdzane ręcznie, krypto automatycznie) |
+|---|
+| ![Admin: zamówienia](screenshots/14-admin-zamowienia.png) |
+
 ## Wdrożenie
 
 - Cały system na jednym VPS w Dockerze: sklep, bramka, baza, playground i Caddy z automatycznym HTTPS.
