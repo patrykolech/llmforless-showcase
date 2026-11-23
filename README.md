@@ -1,5 +1,7 @@
 # LLMforLess: jedno API do modeli AI, taniej niż oficjalne cenniki
 
+> **TL;DR (EN):** LLMforLess: one OpenAI-compatible API for ~190 models from ~12 cheaper providers, up to 80-90% below list prices. Next.js, TypeScript, PostgreSQL, new-api gateway, Docker, Caddy, CI/CD for staging and production. Work in progress, the product code is private.
+
 **Integrator tańszych dostawców API: ok. 12 dostawców i ok. 190 modeli pod jednym kluczem, nawet 80-90% taniej niż oficjalne ceny.**
 Next.js · TypeScript · PostgreSQL · Drizzle ORM · new-api · Docker · Caddy · GitHub Actions
 
